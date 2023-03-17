@@ -5,12 +5,6 @@
     <thead>
         <tr>
             <th align="center">
-                <img width="20" height="1"> 
-                <p>
-                    <small>#</small>
-                </p>
-            </th>
-            <th align="center">
                 <img width="300" height="1"> 
                 <p> 
                     <small>
