@@ -43,7 +43,7 @@
             <td align="center"><a href="02"><img width="300px" src="" /></a></td>
         </tr>
         <tr>
-            <td><a href=https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI">Interactive rating component</a></td>
+            <td><a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI">Interactive rating component</a></td>
             <td>NEWBIE</td>
             <td align="center"><a href="02"><img width="300px" src="" /></a></td>
         </tr>
