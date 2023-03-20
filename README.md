@@ -32,7 +32,7 @@
     </thead>
     <tbody>
         <tr>
-            <td><a href="https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV">Order summary component</a></td>
+            <td><a href="https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj">Order summary component</a></td>
             <td>NEWBIE</td>
             <td align="center">
             <a href="01"><img width="300px" src="" /></a></td>
