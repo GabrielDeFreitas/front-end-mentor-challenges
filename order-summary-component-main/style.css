@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+--pale-blue: hsl(225, 100%, 94%);
+--bright-blue: hsl(245, 75%, 52%);
+--very-pale-blue: hsl(225, 100%, 98%);
+--desaturated-blue: hsl(224, 23%, 55%);
+--dark-blue: hsl(223, 47%, 23%);
+}
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  background: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ul {
+  margin-left: 1rem;
+  margin-right: auto;
+  list-style-type: none;
+}
+ul > :nth-child(1) {
+  color: var(--dark-blue);
+  font-weight: 900;
+}
+ul > :nth-child(2) {
+  color: var(--desaturated-blue);
+  font-weight: 500;
+}
+.container {
+  justify-content: center;
+  max-width: 320px;
+
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.card {
+  background: white;
+  border-radius: 1rem;
+}
+.card > :nth-child(1) {
+  border-top-right-radius: inherit;
+  border-top-left-radius: inherit;
+}
+.content {
+  padding: 1.75rem 3rem 1.75rem 3rem;
+}
+.text-content {
+  text-align: center;
+}
+.text-content > h1 {
+  margin-bottom: 1rem;
+  color: var(--dark-blue);
+}
+.text-content > p {
+  margin-bottom: 1.75rem;
+  color: var(--desaturated-blue);
+  font-weight: 500;
+}
+.plan {
+  background: var(--very-pale-blue);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+}
+.buttons {
+  text-align: center;
+  margin: 2rem 0 0 0;
+}
+.proceed {
+  background: var(--bright-blue);
+  box-shadow: 0rem 1rem 1rem hsl(225, 100%, 94%);
+}
+.proceed > a {
+  color: white;
+}
+.cancel > a {
+  color: var(--desaturated-blue);
+  font-weight: 900;
+}
+.buttons > li {
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 0.75rem;
+}
+.buttons > li a {
+  text-decoration: none;
+}
