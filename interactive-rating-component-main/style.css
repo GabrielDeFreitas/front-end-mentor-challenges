@@ -82,6 +82,9 @@ li > button:focus {
   text-align: center;
 }
 .receive-content > p {
+  width: 91%;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 .image {
