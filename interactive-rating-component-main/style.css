@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --orange: hsl(25, 97%, 53%);
+  --white: hsl(0, 0%, 100%);
+  --light-grey: hsl(217, 12%, 63%);
+  --medium-grey: hsl(216, 12%, 54%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark-blue: hsl(216, 12%, 8%);
+}
+body {
+  font-size: 16px;
+  background: var(--very-dark-blue);
+  font-family: 'Overpass', sans-serif;
+}
+h2 {
+  color: var(--white);
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+  opacity: 1;
+}
+p {
+  color: var(--medium-grey);
+  font-weight: 300;
+  opacity: 1;
+}
+ul {
+  list-style-type: none;
+  display: inline-flex;
+  margin-top: 1.25rem;
+}
+li {
+  margin-right: 1rem;
+}
+li > button {
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 50%;
+  background-color: hsl(216deg 12% 8%/30%);
+  border: none;
+  cursor: pointer;
+  color: var(--light-grey);
+  font-weight: 700;
+}
+li > button:hover {
+  background-color: var(--light-grey);
+  color: var(--white);
+}
+li > button:active {
+  background-color: var(--orange);
+  color: var(--white);
+}
+li > button:focus {
+  background-color: var(--orange);
+  color: var(--white);
+}
+.container {
+  max-width: 450px;
+  margin: 0 auto;
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.send, .receive {
+  background: var(--dark-blue);
+  padding: 1.75rem;
+  border-radius: 1.25rem;
+}
+.send-content > h2 {
+  text-align: left;
+}
+.send-content > p {
+  text-align: left;
+  width: 98%;
+}
+.receive-content > h2 {
+  text-align: center;
+}
+.receive-content > p {
+  text-align: center;
+}
+.image {
+  background-color: hsl(216deg 12% 8%/30%);
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.submit-button {
+  background: var(--orange);
+  border: none;
+  cursor: pointer;
+  color: var(--white);
+  font-weight: 700;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1.75rem;
+  border-radius: 2rem;
+}
+.submit-button:active {
+  background-color: var(--orange);
+  color: var(--white);
+}
+.submit-button:focus {
+  background-color: var(--white);
+  color: var(--orange);
+}
