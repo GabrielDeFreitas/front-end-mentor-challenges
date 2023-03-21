@@ -128,3 +128,6 @@ li > button:focus {
   text-align: center;
   margin: 2rem 0 2rem 0;
 }
+.hidden {
+  display: none;
+}
