@@ -112,3 +112,16 @@ li > button:focus {
   background-color: var(--white);
   color: var(--orange);
 }
+.item-selected > p {
+  text-align: center;
+  color: var(--orange);
+  background-color: hsl(216deg 12% 8%/30%);
+  padding: 1rem;
+  border-radius: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.image-receive {
+  text-align: center;
+  margin: 2rem 0 2rem 0;
+}
