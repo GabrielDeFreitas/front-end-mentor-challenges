@@ -52,5 +52,16 @@
             <td>NEWBIE</td>
             <td align="center"><a href="02"><img width="300px" src="" /></a></td>
         </tr>
+        <tr>
+            <td><a href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0">Huddle landing page with a single introductory section
+ </a></td>
+            <td>NEWBIE</td>
+            <td align="center"><a href="02"><img width="300px" src="" /></a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK">Four card feature section</a></td>
+            <td>NEWBIE</td>
+            <td align="center"><a href="02"><img width="300px" src="" /></a></td>
+        </tr>
     </tbody>
 </table></p>
