@@ -29,7 +29,7 @@ picture > img {
   display: grid;
   grid: max-content 3.2rem/ 1fr;
 }
-.advice-generator--output {
+.advice-generator__output {
   background: var(--dark-Grayish-Blue);
   padding: 4rem 2.4rem 6.4rem;
   display: flex;
@@ -42,25 +42,25 @@ picture > img {
   grid-column: 1/2;
   border-radius: 1.5rem;
 }
-.advice-generator--number {
+.advice-generator__advice-number {
   font-weight: 700;
   font-size: 1.1rem;
   line-height: 1.5rem;
   letter-spacing: 0.345714rem;
   color: var(--neon-Green);
 }
-.advice-generator--quote {
+.advice-generator__quote {
   font-weight: 700;
   font-size: 2.4rem;
   line-height: 3.3rem;
   letter-spacing: -0.0257143rem;
   color: var(--light-Cyan);
 }
-.advice-generator--divider {
+.advice-generator__divider {
   display: flex;
   width: 100%;
 }
-.advice-generator--btn {
+.advice-generator__btn {
   width: 6.4rem;
   height: 6.4rem;
   background: var(--neon-Green);
@@ -73,17 +73,17 @@ picture > img {
   display: grid;
   place-items: center;
 }
-.advice-generator--btn:is(:hover) {
+.advice-generator__btn:is(:hover) {
   box-shadow: 0px 0px 20px var(--neon-Green);
 }
-.advice-generator--btn-img {
+.advice-generator__btn-img {
   transition: transform 250ms;
 }
-.advice-generator--btn:is(:hover) > img {
+.advice-generator__btn:is(:hover) > img {
   transform: rotate(135deg);
 }
 @media screen and (min-width: 545px) {
-  .advice-generator--quote {
+  .advice-generator__quote {
     margin-bottom: 1.6rem;
     font-size: 2.8rem;
     line-height: 3.8rem;
@@ -91,7 +91,7 @@ picture > img {
   }
 }
 @media screen and (min-width: 545px) {
-  .advice-generator--number {
+  .advice-generator__advice-number {
     letter-spacing: 0.408571rem;
     font-size: 1.3rem;
     line-height: 1.8rem;
