@@ -59,7 +59,7 @@
             <td align="center"><a href="02"><img width="300px" src="preview/huddle-landing-page-with-single.PNG" /></a></td>
         </tr>
         <tr>
-            <td><a href="https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK">Advice generator app</a></td>
+            <td><a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db">Advice generator app</a></td>
             <td align="center">JUNIOR</td>
             <td align="center"><a href="02"><img width="300px" src="preview/advice-generator-app.PNG" /></a></td>
         </tr>
