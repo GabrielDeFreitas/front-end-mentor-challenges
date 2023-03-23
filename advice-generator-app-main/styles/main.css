@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -10,10 +12,93 @@
   --dark-Blue: #1f2632;
 }
 body {
-  font-size: 28px;
   background: var(--dark-Blue);
   display: grid;
   min-height: 100vh;
   place-items: center;
   padding-inline: 1.6rem;
+  font-family: "Manrope", sans-serif;
+}
+picture > img {
+  margin: auto;
+  width: 100%;
+}
+.advice-generator {
+  width: 100%;
+  max-width: 54rem;
+  display: grid;
+  grid: max-content 3.2rem/ 1fr;
+}
+.advice-generator--output {
+  background: var(--dark-Grayish-Blue);
+  padding: 4rem 2.4rem 6.4rem;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 2.4rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  border-radius: 1.5rem;
+}
+.advice-generator--number {
+  font-weight: 700;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.345714rem;
+  color: var(--neon-Green);
+}
+.advice-generator--quote {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.3rem;
+  letter-spacing: -0.0257143rem;
+  color: var(--light-Cyan);
+}
+.advice-generator--divider {
+  display: flex;
+  width: 100%;
+}
+.advice-generator--btn {
+  width: 6.4rem;
+  height: 6.4rem;
+  background: var(--neon-Green);
+  border-radius: 50%;
+  grid-row: 2/3;
+  grid-column: 1/2;
+  place-self: end center;
+  transition: box-shadow 250ms;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+}
+.advice-generator--btn:is(:hover) {
+  box-shadow: 0px 0px 20px var(--neon-Green);
+}
+.advice-generator--btn-img {
+  transition: transform 250ms;
+}
+.advice-generator--btn:is(:hover) > img {
+  transform: rotate(135deg);
+}
+@media screen and (min-width: 545px) {
+  .advice-generator--quote {
+    margin-bottom: 1.6rem;
+    font-size: 2.8rem;
+    line-height: 3.8rem;
+    letter-spacing: -0.03rem;
+  }
+}
+@media screen and (min-width: 545px) {
+  .advice-generator--number {
+    letter-spacing: 0.408571rem;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+  }
+}
+@media screen and (min-width: 545px) {
+  .advice-generator--output {
+    padding: 4.8rem 4.8rem 7.2rem;
+  }
 }
