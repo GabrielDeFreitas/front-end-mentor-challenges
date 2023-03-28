@@ -9,8 +9,9 @@ body {
   display: grid;
   place-items: start center;
   background: hsl(230, 100%, 99);
-  background: url("images/bg-pattern.svg") no-repeat, #f9faff;
-  background-size: auto 50%;
+  background: url("images/bg-pattern.svg"),#f9faff;
+  background-repeat: no-repeat;
+  background-size: auto 400px;
 }
 .sr-only {
   position: absolute;
@@ -23,8 +24,64 @@ body {
 }
 .card-wrapper {
   display: flex;
-  flex-flow: center;
+  flex-flow: column nowrap;
   align-items: center;
   gap: 6.4rem;
   width: 100%;
+}
+.pricing-card-header {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 0.8rem;
+  position: relative;
+}
+.pricing-card-header::before {
+  position: absolute;
+  content: "";
+  background: url("images/pattern-circles.svg") no-repeat center;
+  width: 100%;
+  height: 300%;
+  transform: translate(0, -33%);
+  z-index: -1px;
+}
+.pricing-card-header h2 {
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 2.7rem;
+  text-align: center;
+  color: #293356;
+}
+.pricing-card-header p {
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 2.3rem;
+  text-align: center;
+  color: #848ead;
+  max-width: 17rem;
+}
+@media screen and (min-width: 620px){
+  .pricing-card-header p {
+    max-width: unset;
+  }
+}
+form.pricing-card {
+  background: #ffffff;
+  width: 100%;
+  max-width: 54rem;
+  display: grid;
+  box-shadow: 0px 20px 30px -5px rgba(127, 137, 185, 0.152073);
+  border-radius: 0.8rem;
+  padding: 3.4rem 0;
+  gap: 3.4rem;
+  justify-content: center;
+}
+.pricing-card__views {
+  font-weight: 800;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  text-align: center;
+  letter-spacing: 0.17142rem;
+  text-transform: uppercase;
+  color: #858ead;
 }
