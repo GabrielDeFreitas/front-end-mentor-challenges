@@ -21,3 +21,10 @@ body {
   clip: rect(1px, 1px, 1px, 1px);
   white-space: nowrap;
 }
+.card-wrapper {
+  display: flex;
+  flex-flow: center;
+  align-items: center;
+  gap: 6.4rem;
+  width: 100%;
+}
