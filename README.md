@@ -63,5 +63,11 @@
             <td align="center">JUNIOR</td>
             <td align="center"><a href="02"><img width="300px" src="preview/advice-generator-app.PNG" /></a></td>
         </tr>
+         <tr>
+            <td><a href="https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8">Order summary component</a></td>
+            <td align="center">JUNIOR</td>
+            <td align="center">
+            <a href="01"><img width="300px" src="preview/interactive-pricing-component.PNG" /></a></td>
+        </tr>
     </tbody>
 </table></p>
