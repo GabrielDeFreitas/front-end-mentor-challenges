@@ -69,5 +69,11 @@
             <td align="center">
             <a href="01"><img width="300px" src="preview/interactive-pricing-component.PNG" /></a></td>
         </tr>
+        <tr>
+            <td><a href="https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw">Time tracking dashboard</a></td>
+            <td align="center">JUNIOR</td>
+            <td align="center">
+            <a href="01"><img width="300px" src="preview/time-tracking-dashboard.PNG" /></a></td>
+        </tr>
     </tbody>
 </table></p>
