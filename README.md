@@ -56,12 +56,12 @@
             <td><a href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0">Huddle landing page with a single introductory section
  </a></td>
             <td align="center">NEWBIE</td>
-            <td align="center"><a href="https://github.com/GabrielDeFreitas/front-end-mentor-junior/blob/master/huddle-landing-page-with-single-introductory-section-master/index.html"><img width="300px" src="preview/huddle-landing-page-with-single.PNG" /></a></td>
+            <td align="center"><a href="https://gabrieldefreitas.github.io/front-end-mentor-junior/huddle-landing-page-with-single-introductory-section-master/index.html"><img width="300px" src="preview/huddle-landing-page-with-single.PNG" /></a></td>
         </tr>
         <tr>
             <td><a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db">Advice generator app</a></td>
             <td align="center">JUNIOR</td>
-            <td align="center"><a href="https://github.com/GabrielDeFreitas/front-end-mentor-junior/blob/master/advice-generator-app-main/index.html"><img width="300px" src="preview/advice-generator-app.PNG" /></a></td>
+            <td align="center"><a href="https://gabrieldefreitas.github.io/front-end-mentor-junior/advice-generator-app-main/index.html"><img width="300px" src="preview/advice-generator-app.PNG" /></a></td>
         </tr>
          <tr>
             <td><a href="https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8">Order summary component</a></td>
