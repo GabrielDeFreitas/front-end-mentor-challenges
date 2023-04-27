@@ -64,10 +64,11 @@
             <td align="center"><a href="https://gabrieldefreitas.github.io/front-end-mentor-junior/advice-generator-app-main/index.html"><img width="300px" src="preview/advice-generator-app.PNG" /></a></td>
         </tr>
          <tr>
-            <td><a href="https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8">Order summary component</a></td>
+            <td><a href="https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8">Interactive pricing component
+</a></td>
             <td align="center">JUNIOR</td>
             <td align="center">
-            <a href="01"><img width="300px" src="preview/interactive-pricing-component.PNG" /></a></td>
+            <a href="https://gabrieldefreitas.github.io/front-end-mentor-junior/interactive-pricing-component-main/index.html"><img width="300px" src="preview/interactive-pricing-component.PNG" /></a></td>
         </tr>
         <tr>
             <td><a href="https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw">Time tracking dashboard</a></td>
