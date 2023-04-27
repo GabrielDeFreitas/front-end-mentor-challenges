@@ -1,4 +1,7 @@
-# Front-End Mentor Junior
+## What is inside?
+Some projects from the Front-end Mentor challenge.
+<br>
+To view just click on the image of the challenge.
 
 <p align="center">
     <table>
