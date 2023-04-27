@@ -73,13 +73,13 @@
             <td><a href="https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw">Time tracking dashboard</a></td>
             <td align="center">JUNIOR</td>
             <td align="center">
-            <a href="01"><img width="300px" src="preview/time-tracking-dashboard.PNG" /></a></td>
+            <a href="https://gabrieldefreitas.github.io/front-end-mentor-junior/time-tracking-dashboard-main/index.html"><img width="300px" src="preview/time-tracking-dashboard.PNG" /></a></td>
         </tr>
         <tr>
             <td><a href="https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7">Testimonials grid section</a></td>
             <td align="center">JUNIOR</td>
             <td align="center">
-            <a href="01"><img width="300px" src="preview/testimonials-grid-section.PNG" /></a></td>
+            <a href="https://gabrieldefreitas.github.io/front-end-mentor-junior/testimonials-grid-section-main/index.html"><img width="300px" src="preview/testimonials-grid-section.PNG" /></a></td>
         </tr>
     </tbody>
 </table></p>
