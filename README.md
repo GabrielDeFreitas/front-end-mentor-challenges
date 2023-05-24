@@ -1,5 +1,5 @@
 ## What is inside?
-Some projects from the Front-end Mentor challenge.
+Front-end Mentor website challenges list.
 <br>
 To view just click on the image of the challenge.
 
