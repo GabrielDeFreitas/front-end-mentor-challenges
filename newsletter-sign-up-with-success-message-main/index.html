@@ -2,51 +2,109 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <main>
+    <div id="email-input-component" class="sign-up--container">
+      <div class="sign-up">
+        <h1 class="sing-up--title">Stay updated!</h1>
+        <p class="sing-up--description">Join 60,000+ product managers receiving monthly updates on:</p>
+        <ul>
+          <li>Product discovery and building what matters</li>
+          <li>Measuring to ensure updates are a success</li>
+          <li>And much more!</li>
+        </ul>
+        <label for="">Email address</label>
+        <input type="email" id="email-input" placeholder="email@company.com">
+        <div id="error-message" style="display: none;">Valid email required</div>
+        <button id="send-button">Subscribe to monthly newsletter</button>
+      </div>
+    </div>
 
-  <!-- Sign-up form start -->
-
-  Stay updated!
-
-  Join 60,000+ product managers receiving monthly updates on:
-
-  Product discovery and building what matters
-  Measuring to ensure updates are a success
-  And much more!
-
-  Email address
-  email@company.com
-
-  Subscribe to monthly newsletter
-
-  <!-- Sign-up form end -->
-
-  <!-- Success message start -->
-
-  Thanks for subscribing!
-
-  A confirmation email has been sent to ash@loremcompany.com. 
-  Please open it and click the button inside to confirm your subscription.
-
-  Dismiss message
-
-  <!-- Success message end -->
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <div id="success-message-component" class="success-message--container" style="display:none;">
+      <div class="success-message">
+        <h1 class="success-message--title">Thanks for subscribing!</h1>
+        <p class="success-message--description">
+          A confirmation email has been sent to <span id="success-email" class="success-message--email"></span>
+          Please open it and click the button inside to confirm your subscription.</p>
+          <button id="return-button"> Dismiss message </button>
+        </div>
+      </div>
+  </main>
 </body>
 </html>
+
+<script>
+
+const isValidEmail = (email) => {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegex.test(email);
+};
+
+const emailInputComponent = () => {
+  const emailInput = document.getElementById("email-input");
+  const sendButton = document.getElementById("send-button");
+  const errorMessage = document.getElementById("error-message");
+
+  sendButton.addEventListener("click", () => {
+    const email = emailInput.value;
+
+    if (isValidEmail(email)) {
+      errorMessage.style.display = "none";
+      successMessageComponent(email);
+      emailInput.value = "";
+    } else {
+      errorMessage.style.display = "block";
+    }
+  });
+};
+
+const successMessageComponent = (email) => {
+  const emailInputComponent = document.getElementById("email-input-component");
+  const successMessageComponent = document.getElementById("success-message-component");
+
+  emailInputComponent.style.display = "none";
+  successMessageComponent.style.display = "block";
+
+  const successEmail = document.getElementById("success-email");
+  successEmail.textContent = email;
+
+  const returnButton = document.getElementById("return-button");
+  returnButton.addEventListener("click", () => {
+    successMessageComponent.style.display = "none";
+    emailInputComponent.style.display = "block";
+    emailInput.value = "";
+  });
+};
+
+emailInputComponent();
+
+</script>
+
+<style>
+  body{
+    padding-inline: 1.6rem;
+    background-color: hsl(235, 18%, 26%);
+    font-family: Roboto-Regular;
+  }
+  .sign-up--container, .success-message--container {
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 40rem;
+    background-color: #fff;
+    margin-block: 1rem;
+  }
+  .sign-up, .success-message {
+    padding: 1.75rem;
+  }
+  .success-message--email {
+    font-weight: 800;
+  }
+</style>
