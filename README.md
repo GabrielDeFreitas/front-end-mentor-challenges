@@ -1,5 +1,5 @@
 ## What is inside?
-Front-end Mentor website challenges list.
+Front-end Mentor website free challenges list.
 <br>
 https://www.frontendmentor.io/challenges
 <br>
